@@ -72,4 +72,10 @@ public class FCRuneMysteries extends QuestScriptManager
 		return "Rune Mysteries";
 	}
 
+	@Override
+	public boolean canStart()
+	{
+		return true;
+	}
+
 }
