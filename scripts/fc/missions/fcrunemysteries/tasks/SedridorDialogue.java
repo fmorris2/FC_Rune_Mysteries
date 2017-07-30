@@ -13,8 +13,8 @@ import scripts.fc.framework.task.Task;
 public abstract class SedridorDialogue extends Task implements ItemsRequiredTask
 {
 	private static final long serialVersionUID = 770220054412694629L;
-	private static final Positionable SEDRIDOR_TILE = new RSTile(3104, 9571, 0);
-	private static final RSArea SEDRIDOR_AREA = new RSArea(SEDRIDOR_TILE, 7);
+	protected static final Positionable SEDRIDOR_TILE = new RSTile(3104, 9571, 0);
+	protected static final RSArea SEDRIDOR_AREA = new RSArea(SEDRIDOR_TILE, 7);
 	
 	@Override
 	public boolean execute()
